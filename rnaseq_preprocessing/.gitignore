@@ -1,0 +1,4 @@
+_STARtmp
+.git
+.DS_Store
+.snakemake/

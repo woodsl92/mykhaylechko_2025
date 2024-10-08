@@ -1,0 +1,4 @@
+sample	unit	fq1	fq2
+S6	1	data/reads/SLX-20020.A9.HYGYWDRXX.s_2.r_1.fq.gz	data/reads/SLX-20020.A9.HYGYWDRXX.s_2.r_2.fq.gz
+S12	1	data/reads/SLX-20020.B9.HYGYWDRXX.s_2.r_1.fq.gz	data/reads/SLX-20020.B9.HYGYWDRXX.s_2.r_2.fq.gz
+S18	1	data/reads/SLX-20020.B9.HYGYWDRXX.s_2.r_1.fq.gz	data/reads/SLX-20020.B9.HYGYWDRXX.s_2.r_2.fq.gz

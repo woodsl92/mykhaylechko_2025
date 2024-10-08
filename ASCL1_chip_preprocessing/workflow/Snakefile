@@ -1,0 +1,16 @@
+# The main entry point of workflow.
+# After configuring, running snakemake -n in a clone of this repository should successfully execute a dry-run of the workflow.
+
+include: "/work/workflow/rules/common.smk"
+include: "/work/workflow/rules/ref.smk"
+include: "/work/workflow/rules/qc.smk"
+include: "/work/workflow/rules/trimgalore.smk"
+include: "/work/workflow/rules/mapping.smk"
+include: "/work/workflow/rules/filtering.smk"
+include: "/work/workflow/rules/stats.smk"
+include: "/work/workflow/rules/utils.smk"
+include: "/work/workflow/rules/post-analysis.smk"
+include: "/work/workflow/rules/peak_analysis.smk"
+
+rule all:
+    input: all_input

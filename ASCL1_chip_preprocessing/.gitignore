@@ -1,0 +1,8 @@
+.*
+!/.gitignore
+*DS_Store
+logs/
+resources
+__pycache__
+workflow/logs/
+workflow/.snakemake/

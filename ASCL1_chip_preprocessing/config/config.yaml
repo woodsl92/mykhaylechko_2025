@@ -1,0 +1,18 @@
+# This file should contain everything to configure the workflow on a global scale.
+# In case of sample based data, it should be complemented by a samples.tsv file that contains
+# one row per sample. It can be parsed easily via pandas.
+samples: "/work/config/samples.tsv"
+units: "/work/config/units.tsv"
+
+resources:
+  ref:
+    # Genome build
+    build: hg38
+    # Path to prebuilt bowtie2 genome index with genome basename e.g. /genomeIndex/hg38/hg38
+    index: /genomeIndex/hg38/hg38
+
+params:
+  # Choose True to run preseq lc_extrap or False to skip this step  
+  lc_extrap: True
+  # choose "narrow" or "broad" for macs2 callpeak analysis, for documentation and source code please see https://github.com/macs3-project/MACS
+  peak-analysis: "narrow"

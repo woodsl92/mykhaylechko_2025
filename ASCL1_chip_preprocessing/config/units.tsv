@@ -1,0 +1,25 @@
+basename	unit	fragment_len_mean	fragment_len_sd	fq1	fq2	platform
+BE2C-Rep-1-Input_S1	1			/fastq/BE2C-Rep-1-Input_S1_1_R1.fq.gz	/fastq/BE2C-Rep-1-Input_S1_1_R2.fq.gz	ILLUMINA
+BE2C-Rep-1-Reverted_S4	1			/fastq/BE2C-Rep-1-Reverted_S4_1_R1.fq.gz	/fastq/BE2C-Rep-1-Reverted_S4_1_R2.fq.gz	ILLUMINA
+BE2C-Rep-1-Treated_S3	1			/fastq/BE2C-Rep-1-Treated_S3_1_R1.fq.gz	/fastq/BE2C-Rep-1-Treated_S3_1_R2.fq.gz	ILLUMINA
+BE2C-Rep-1-Untreated_S2	1			/fastq/BE2C-Rep-1-Untreated_S2_1_R1.fq.gz	/fastq/BE2C-Rep-1-Untreated_S2_1_R2.fq.gz	ILLUMINA
+BE2C-Rep-2-Input_S5	1			/fastq/BE2C-Rep-2-Input_S5_1_R1.fq.gz	/fastq/BE2C-Rep-2-Input_S5_1_R2.fq.gz	ILLUMINA
+BE2C-Rep-2-Reverted_S8	1			/fastq/BE2C-Rep-2-Reverted_S8_1_R1.fq.gz	/fastq/BE2C-Rep-2-Reverted_S8_1_R2.fq.gz	ILLUMINA
+BE2C-Rep-2-Treated_S7	1			/fastq/BE2C-Rep-2-Treated_S7_1_R1.fq.gz	/fastq/BE2C-Rep-2-Treated_S7_1_R2.fq.gz	ILLUMINA
+BE2C-Rep-2-Untreated_S6	1			/fastq/BE2C-Rep-2-Untreated_S6_1_R1.fq.gz	/fastq/BE2C-Rep-2-Untreated_S6_1_R2.fq.gz	ILLUMINA
+IMR32-Rep-1-Input_S9	1			/fastq/IMR32-Rep-1-Input_S9_1_R1.fq.gz	/fastq/IMR32-Rep-1-Input_S9_1_R2.fq.gz	ILLUMINA
+IMR32-Rep-1-Reverted_S12	1			/fastq/IMR32-Rep-1-Reverted_S12_1_R1.fq.gz	/fastq/IMR32-Rep-1-Reverted_S12_1_R2.fq.gz	ILLUMINA
+IMR32-Rep-1-Treated_S11	1			/fastq/IMR32-Rep-1-Treated_S11_1_R1.fq.gz	/fastq/IMR32-Rep-1-Treated_S11_1_R2.fq.gz	ILLUMINA
+IMR32-Rep-1-Untreated_S10	1			/fastq/IMR32-Rep-1-Untreated_S10_1_R1.fq.gz	/fastq/IMR32-Rep-1-Untreated_S10_1_R2.fq.gz	ILLUMINA
+IMR32-Rep-2-Input_S13	1			/fastq/IMR32-Rep-2-Input_S13_1_R1.fq.gz	/fastq/IMR32-Rep-2-Input_S13_1_R2.fq.gz	ILLUMINA
+IMR32-Rep-2-Reverted_S16	1			/fastq/IMR32-Rep-2-Reverted_S16_1_R1.fq.gz	/fastq/IMR32-Rep-2-Reverted_S16_1_R2.fq.gz	ILLUMINA
+IMR32-Rep-2-Treated_S15	1			/fastq/IMR32-Rep-2-Treated_S15_1_R1.fq.gz	/fastq/IMR32-Rep-2-Treated_S15_1_R2.fq.gz	ILLUMINA
+IMR32-Rep-2-Untreated_S14	1			/fastq/IMR32-Rep-2-Untreated_S14_1_R1.fq.gz	/fastq/IMR32-Rep-2-Untreated_S14_1_R2.fq.gz	ILLUMINA
+SHSY-Rep-1-Input_S17	1			/fastq/SHSY-Rep-1-Input_S17_1_R1.fq.gz	/fastq/SHSY-Rep-1-Input_S17_1_R2.fq.gz	ILLUMINA
+SHSY-Rep-1-Reverted_S20	1			/fastq/SHSY-Rep-1-Reverted_S20_1_R1.fq.gz	/fastq/SHSY-Rep-1-Reverted_S20_1_R2.fq.gz	ILLUMINA
+SHSY-Rep-1-Treated_S19	1			/fastq/SHSY-Rep-1-Treated_S19_1_R1.fq.gz	/fastq/SHSY-Rep-1-Treated_S19_1_R2.fq.gz	ILLUMINA
+SHSY-Rep-1-Untreated_S18	1			/fastq/SHSY-Rep-1-Untreated_S18_1_R1.fq.gz	/fastq/SHSY-Rep-1-Untreated_S18_1_R2.fq.gz	ILLUMINA
+SHSY-Rep-2-Input_S21	1			/fastq/SHSY-Rep-2-Input_S21_1_R1.fq.gz	/fastq/SHSY-Rep-2-Input_S21_1_R2.fq.gz	ILLUMINA
+SHSY-Rep-2-Reverted_S24	1			/fastq/SHSY-Rep-2-Reverted_S24_1_R1.fq.gz	/fastq/SHSY-Rep-2-Reverted_S24_1_R2.fq.gz	ILLUMINA
+SHSY-Rep-2-Treated_S23	1			/fastq/SHSY-Rep-2-Treated_S23_1_R1.fq.gz	/fastq/SHSY-Rep-2-Treated_S23_1_R2.fq.gz	ILLUMINA
+SHSY-Rep-2-Untreated_S22	1			/fastq/SHSY-Rep-2-Untreated_S22_1_R1.fq.gz	/fastq/SHSY-Rep-2-Untreated_S22_1_R2.fq.gz	ILLUMINA

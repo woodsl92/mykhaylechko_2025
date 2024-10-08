@@ -1,0 +1,41 @@
+sample	unit	fq1	fq2	strandedness
+BE2C_ASCL1_WTA1_R1_uninduced_S11	s_1	/fastq/BE2C_ASCL1_WTA1_R1_uninduced_S11.s_1.R1.fq.gz	/fastq/BE2C_ASCL1_WTA1_R1_uninduced_S11.s_1.R2.fq.gz	reverse
+BE2C_ASCL1_WTA1_R2_uninduced_S13	s_1	/fastq/BE2C_ASCL1_WTA1_R2_uninduced_S13.s_1.R1.fq.gz	/fastq/BE2C_ASCL1_WTA1_R2_uninduced_S13.s_1.R2.fq.gz	reverse
+BE2C_ASCL1_WTA1_R3_uninduced_S15	s_1	/fastq/BE2C_ASCL1_WTA1_R3_uninduced_S15.s_1.R1.fq.gz	/fastq/BE2C_ASCL1_WTA1_R3_uninduced_S15.s_1.R2.fq.gz	reverse
+BE2C_ASCL1_WTA1_R4_uninduced_S17	s_1	/fastq/BE2C_ASCL1_WTA1_R4_uninduced_S17.s_1.R1.fq.gz	/fastq/BE2C_ASCL1_WTA1_R4_uninduced_S17.s_1.R2.fq.gz	reverse
+BE2C_ASCL1_WTA1_R5_uninduced_S19	s_1	/fastq/BE2C_ASCL1_WTA1_R5_uninduced_S19.s_1.R1.fq.gz	/fastq/BE2C_ASCL1_WTA1_R5_uninduced_S19.s_1.R2.fq.gz	reverse
+BE2C_ASCL1_WTA1_R1_induced_S12	s_1	/fastq/BE2C_ASCL1_WTA1_R1_induced_S12.s_1.R1.fq.gz	/fastq/BE2C_ASCL1_WTA1_R1_induced_S12.s_1.R2.fq.gz	reverse
+BE2C_ASCL1_WTA1_R2_induced_S14	s_1	/fastq/BE2C_ASCL1_WTA1_R2_induced_S14.s_1.R1.fq.gz	/fastq/BE2C_ASCL1_WTA1_R2_induced_S14.s_1.R2.fq.gz	reverse
+BE2C_ASCL1_WTA1_R3_induced_S16	s_1	/fastq/BE2C_ASCL1_WTA1_R3_induced_S16.s_1.R1.fq.gz	/fastq/BE2C_ASCL1_WTA1_R3_induced_S16.s_1.R2.fq.gz	reverse
+BE2C_ASCL1_WTA1_R4_induced_S18	s_1	/fastq/BE2C_ASCL1_WTA1_R4_induced_S18.s_1.R1.fq.gz	/fastq/BE2C_ASCL1_WTA1_R4_induced_S18.s_1.R2.fq.gz	reverse
+BE2C_ASCL1_WTA1_R5_induced_S20	s_1	/fastq/BE2C_ASCL1_WTA1_R5_induced_S20.s_1.R1.fq.gz	/fastq/BE2C_ASCL1_WTA1_R5_induced_S20.s_1.R2.fq.gz	reverse
+IMR32_ASCL1_WT12_R1_uninduced_S21	s_1	/fastq/IMR32_ASCL1_WT12_R1_uninduced_S21.s_1.R1.fq.gz	/fastq/IMR32_ASCL1_WT12_R1_uninduced_S21.s_1.R2.fq.gz	reverse
+IMR32_ASCL1_WT12_R2_uninduced_S23	s_1	/fastq/IMR32_ASCL1_WT12_R2_uninduced_S23.s_1.R1.fq.gz	/fastq/IMR32_ASCL1_WT12_R2_uninduced_S23.s_1.R2.fq.gz	reverse
+IMR32_ASCL1_WT12_R3_uninduced_S25	s_1	/fastq/IMR32_ASCL1_WT12_R3_uninduced_S25.s_1.R1.fq.gz	/fastq/IMR32_ASCL1_WT12_R3_uninduced_S25.s_1.R2.fq.gz	reverse
+IMR32_ASCL1_WT12_R4_uninduced_S27	s_1	/fastq/IMR32_ASCL1_WT12_R4_uninduced_S27.s_1.R1.fq.gz	/fastq/IMR32_ASCL1_WT12_R4_uninduced_S27.s_1.R2.fq.gz	reverse
+IMR32_ASCL1_WT12_R5_uninduced_S29	s_1	/fastq/IMR32_ASCL1_WT12_R5_uninduced_S29.s_1.R1.fq.gz	/fastq/IMR32_ASCL1_WT12_R5_uninduced_S29.s_1.R2.fq.gz	reverse
+IMR32_ASCL1_WT12_R1_induced_S22	s_1	/fastq/IMR32_ASCL1_WT12_R1_induced_S22.s_1.R1.fq.gz	/fastq/IMR32_ASCL1_WT12_R1_induced_S22.s_1.R2.fq.gz	reverse
+IMR32_ASCL1_WT12_R2_induced_S24	s_1	/fastq/IMR32_ASCL1_WT12_R2_induced_S24.s_1.R1.fq.gz	/fastq/IMR32_ASCL1_WT12_R2_induced_S24.s_1.R2.fq.gz	reverse
+IMR32_ASCL1_WT12_R3_induced_S26	s_1	/fastq/IMR32_ASCL1_WT12_R3_induced_S26.s_1.R1.fq.gz	/fastq/IMR32_ASCL1_WT12_R3_induced_S26.s_1.R2.fq.gz	reverse
+IMR32_ASCL1_WT12_R4_induced_S28	s_1	/fastq/IMR32_ASCL1_WT12_R4_induced_S28.s_1.R1.fq.gz	/fastq/IMR32_ASCL1_WT12_R4_induced_S28.s_1.R2.fq.gz	reverse
+IMR32_ASCL1_WT12_R5_induced_S30	s_1	/fastq/IMR32_ASCL1_WT12_R5_induced_S30.s_1.R1.fq.gz	/fastq/IMR32_ASCL1_WT12_R5_induced_S30.s_1.R2.fq.gz	reverse
+SHEP_ASCL1_WTB11_R1_uninduced_S1	s_1	/fastq/SHEP_ASCL1_WTB11_R1_uninduced_S1.s_1.R1.fq.gz	/fastq/SHEP_ASCL1_WTB11_R1_uninduced_S1.s_1.R2.fq.gz	reverse
+SHEP_ASCL1_WTB11_R2_uninduced_S3	s_1	/fastq/SHEP_ASCL1_WTB11_R2_uninduced_S3.s_1.R1.fq.gz	/fastq/SHEP_ASCL1_WTB11_R2_uninduced_S3.s_1.R2.fq.gz	reverse
+SHEP_ASCL1_WTB11_R3_uninduced_S5	s_1	/fastq/SHEP_ASCL1_WTB11_R3_uninduced_S5.s_1.R1.fq.gz	/fastq/SHEP_ASCL1_WTB11_R3_uninduced_S5.s_1.R2.fq.gz	reverse
+SHEP_ASCL1_WTB11_R4_uninduced_S7	s_1	/fastq/SHEP_ASCL1_WTB11_R4_uninduced_S7.s_1.R1.fq.gz	/fastq/SHEP_ASCL1_WTB11_R4_uninduced_S7.s_1.R2.fq.gz	reverse
+SHEP_ASCL1_WTB11_R5_uninduced_S9	s_1	/fastq/SHEP_ASCL1_WTB11_R5_uninduced_S9.s_1.R1.fq.gz	/fastq/SHEP_ASCL1_WTB11_R5_uninduced_S9.s_1.R2.fq.gz	reverse
+SHEP_ASCL1_WTB11_R1_induced_S2	s_1	/fastq/SHEP_ASCL1_WTB11_R1_induced_S2.s_1.R1.fq.gz	/fastq/SHEP_ASCL1_WTB11_R1_induced_S2.s_1.R2.fq.gz	reverse
+SHEP_ASCL1_WTB11_R2_induced_S4	s_1	/fastq/SHEP_ASCL1_WTB11_R2_induced_S4.s_1.R1.fq.gz	/fastq/SHEP_ASCL1_WTB11_R2_induced_S4.s_1.R2.fq.gz	reverse
+SHEP_ASCL1_WTB11_R3_induced_S6	s_1	/fastq/SHEP_ASCL1_WTB11_R3_induced_S6.s_1.R1.fq.gz	/fastq/SHEP_ASCL1_WTB11_R3_induced_S6.s_1.R2.fq.gz	reverse
+SHEP_ASCL1_WTB11_R4_induced_S8	s_1	/fastq/SHEP_ASCL1_WTB11_R4_induced_S8.s_1.R1.fq.gz	/fastq/SHEP_ASCL1_WTB11_R4_induced_S8.s_1.R2.fq.gz	reverse
+SHEP_ASCL1_WTB11_R5_induced_S10	s_1	/fastq/SHEP_ASCL1_WTB11_R5_induced_S10.s_1.R1.fq.gz	/fastq/SHEP_ASCL1_WTB11_R5_induced_S10.s_1.R2.fq.gz	reverse
+jc2257_SH-SY5Y_RNAseq_WT31_uninduced	s_1	/fastq/jc2257_SH-SY5Y_RNAseq_WT31_uninduced.s_1.fq.gz		reverse
+jc2258_SH-SY5Y_RNAseq_WT31_uninduced	s_1	/fastq/jc2258_SH-SY5Y_RNAseq_WT31_uninduced.s_1.fq.gz		reverse
+jc2259_SH-SY5Y_RNAseq_WT31_uninduced	s_1	/fastq/jc2259_SH-SY5Y_RNAseq_WT31_uninduced.s_1.fq.gz		reverse
+jc2260_SH-SY5Y_RNAseq_WT31_uninduced	s_1	/fastq/jc2260_SH-SY5Y_RNAseq_WT31_uninduced.s_1.fq.gz		reverse
+jc2261_SH-SY5Y_RNAseq_WT31_uninduced	s_1	/fastq/jc2261_SH-SY5Y_RNAseq_WT31_uninduced.s_1.fq.gz		reverse
+jc2262_SH-SY5Y_RNAseq_WT31_tet	s_1	/fastq/jc2262_SH-SY5Y_RNAseq_WT31_tet.s_1.fq.gz		reverse
+jc2263_SH-SY5Y_RNAseq_WT31_tet	s_1	/fastq/jc2263_SH-SY5Y_RNAseq_WT31_tet.s_1.fq.gz		reverse
+jc2264_SH-SY5Y_RNAseq_WT31_tet	s_1	/fastq/jc2264_SH-SY5Y_RNAseq_WT31_tet.s_1.fq.gz		reverse
+jc2265_SH-SY5Y_RNAseq_WT31_tet	s_1	/fastq/jc2265_SH-SY5Y_RNAseq_WT31_tet.s_1.fq.gz		reverse
+jc2266_SH-SY5Y_RNAseq_WT31_tet	s_1	/fastq/jc2266_SH-SY5Y_RNAseq_WT31_tet.s_1.fq.gz		reverse

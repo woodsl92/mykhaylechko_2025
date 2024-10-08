@@ -1,0 +1,40 @@
+### Average the bigwig of 4 replicates, using wiggletools
+
+wiggletools write_bg BE_Average.bedGraph mean BE2CA1-Rep1-Ascl1_S16.bigwig BE2CA1-Rep2-Ascl1_S17.bigwig BE2CA1-Rep3-Ascl1_S18.bigwig BE2CA1-Rep4-Ascl1_S19.bigwig
+bedGraphToBigWig BE_Average.bedGraph hg38.chrom.sizes BE_Average.bigwig
+
+wiggletools write_bg IMR_Average.bedGraph mean IMRC12-Rep1-Ascl1_S26.bigwig IMRC12-Rep2-Ascl1_S27.bigwig IMRC12-Rep3-Ascl1_S28.bigwig IMRC12-Rep4-Ascl1_S29.bigwig
+bedGraphToBigWig IMR_Average.bedGraph hg38.chrom.sizes IMR_Average.bigwig
+
+###Plot heatmap and profileplot of IMR_up, Common and BE_up peaks, using IMR_average.bigWig and BE_average.bigWig#
+
+computeMatrix reference-point --referencePoint center -S IMR_average.bigWig BE_average.bigWig -R Common_FDR0.1.bed IMR_up.bed BE_up.bed -a 3000 -b 3000 -bl hg38-blacklist.v2.bed --missingDataAsZero --skipZeros -o matrix_IMR_BE_diffbind.gz
+
+plotHeatmap -m matrix_IMR_BE_diffbind.gz -o Heatmap_IMR_BE_diffbind.pdf --colorList "#3A5FCD,#FFFFF0,#FF8C00" --legendLocation none -x "Distance (bp)" --samplesLabel "IMR ASCL1" "BE ASCL1" --dpi 300
+
+plotProfile -m matrix_IMR_BE_diffbind.gz -out profile_IMR_BE_diffbind.tiff --samplesLabel "IMR ASCL1" "BE ASCL1" --regionsLabel Common IMR_gained BE_gained --colors "black" "#E40E4F" "#1A2C79" --dpi 300
+
+
+### Homer analysis contrasting IMR_up and BE_up, as well as running homer on Common regions#
+
+findMotifsGenome.pl IMR_up.bed hg38.fa homer_IMRup_vs_BEup -size 100 -mask -bg BE_up.bed
+
+findMotifsGenome.pl BE_up.bed hg38.fa homer_BEup_vs_IMRup -size 100 -mask -bg IMR_up.bed
+
+findMotifsGenome.pl Common_FDR0.1.bed hg38.fa homer_Common -size 100 -mask
+
+
+###Plot heatmap and profileplot of the 5 groups of peaks, using IMR_average.bigWig and BE_average.bigWig#
+
+computeMatrix reference-point --referencePoint center -S IMR_average.bigWig BE_average.bigWig -R peaks_group1_consensus.bed peaks_group2_consensus.bed peaks_group3_consensus.bed peaks_group4_consensus.bed peaks_group5_consensus.bed -a 3000 -b 3000 -bl hg38-blacklist.v2.bed --missingDataAsZero --skipZeros -o matrix_IMR_BE_Groups.gz
+
+plotHeatmap -m matrix_IMR_BE_Groups.gz -o Heatmap_IMR_BE_Groups.pdf --colorList "#3A5FCD,#FFFFF0,#FF8C00" --legendLocation none -x "Distance (bp)" --samplesLabel "IMR ASCL1" "BE ASCL1" --dpi 300
+
+plotProfile -m matrix_IMR_BE_Groups.gz -out profile_IMR_BE_Groups.tiff --samplesLabel "IMR ASCL1" "BE ASCL1" --regionsLabel 1 2 3 4 5 --colors "#E40E4F" "#1A2C79" --dpi 300 --perGroup
+
+
+### Homer analysis for consensus_IMR and consensus_BE#
+
+findMotifsGenome.pl consensus_IMR.bed hg38.fa homer_consensus_IMR -size 100 -mask
+
+findMotifsGenome.pl consensus_BE.bed hg38.fa homer_consensus_BE -size 100 -mask
